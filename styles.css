@@ -1,0 +1,35 @@
+body{
+  font-family: Arial, sans-serif;
+  background: #eef1f5;
+}
+p{
+  font-size:16px;
+  line-height:1.6;
+}
+h2{
+  font-family: "Poppins", sans-serif;
+  font-weight:600;
+}
+.header-font{
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+}
+.header-gradient{
+  background: linear-gradient(to right, #111, #3a3a3a) !important;
+}
+.container{
+  max-width: 1200px;
+}
+section{
+  padding: 8px 0;
+}
+.simple-hover{
+  transition: transform 0.15s ease;
+}
+.simple-hover:hover{
+  transform: scale(1.02);
+}
+.footer-gradient{
+  background: linear-gradient(to right, #111, #3a3a3a) !important;
+}
